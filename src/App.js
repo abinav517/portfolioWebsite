@@ -3,9 +3,9 @@ import './App.css';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import Reel from './components/pages/Reel';
 
 function App() {
   return (
@@ -13,7 +13,11 @@ function App() {
     <Header />
       <Routes>
          <Route path="/" element={<Home />} />
-         <Route path="/about" element={<About />} />
+         <Route path="/home" element={<Home />} />
+         <Route path="/projects" element={<Projects />} />
+         <Route path="/reel" element={<Reel />} />
+          <Route path="/contact" element={<Contact />} />
+
       </Routes>
     {/* <Footer /> */}
     </Router>
