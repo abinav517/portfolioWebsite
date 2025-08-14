@@ -1,17 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/header';
-
+import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
-      <Header>
+    <Header>
+    </Header>
 
-      </Header>
-      <div className='abinav'> Test</div>
-      <footer>
+    <Footer>
         
-      </footer>
+    </Footer>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.mainheader {
+  display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    list-style-type:none;
+}
+
+.mainfooter {
+  list-style-type:none;
+}
