@@ -1,7 +1,6 @@
 import './displayCard.css'
 
 export default function DisplayCard(props){
-    
     return( 
 
             <div className="embededLink">
