@@ -1,4 +1,5 @@
 .navfooter{
+    width: 30%;
     text-decoration: none;  
     display:flex;
     flex-direction: column;
@@ -8,6 +9,7 @@
 }
 
 .footerLogo {
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -15,6 +17,14 @@
 }
 
 .footerLogo img {
+  margin:10px;
   width: 40px;
   height: 40px;
+}
+
+.mainfooter {
+
+  display:flex;
+  justify-content: space-between;
+
 }
