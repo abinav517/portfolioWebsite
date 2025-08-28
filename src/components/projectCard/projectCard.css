@@ -1,0 +1,17 @@
+.embededLink{ 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+h4
+{
+    text-decoration:underline;
+}
+p credit{
+    text-decoration:underline;
+    align-items: start;
+}
