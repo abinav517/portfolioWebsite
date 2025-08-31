@@ -3,3 +3,36 @@
   flex-direction: row;
   gap: 2em;
 }
+
+
+
+
+.topContent {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+
+.topContent img{
+  height: 300px;
+  width: 300px;
+
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%; 
+}
+
+
+.SoftwareLogos {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.mainContent {
+
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

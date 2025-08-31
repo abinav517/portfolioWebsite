@@ -1,9 +1,11 @@
 import './styles/Home.css';
 import HomeProjects from '../homeProjects/homeProjects';
+import HomeLogos from '../homeLogos/homeLogos';
+
 export default function Home() {
     return(
-<div>
-      <div>
+<div className='mainContent'>
+      <div className='topContent'>
             <div className='pfp'>
             <img src="..\images\Abinav.jpg"></img>
             </div>
@@ -11,7 +13,7 @@ export default function Home() {
             <div>
                 <div>
                 <div><h1>Abinav Srinivas</h1></div>
-                <div><p>Film Editor|3D Generalist|VFX Artist</p></div>
+                <div><p>Film Editor | 3D Generalist | VFX Artist</p></div>
                 <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
                 </div>
 
@@ -40,13 +42,28 @@ export default function Home() {
     </div>
 
     <div>
-        <h2>Softwares I know</h2>
+        <h2>Softwares I work with</h2>
+
+        <div className="SoftwareLogos"> 
+
         <div>
-            <a href='/'><img src="..\images\blender.svg"></img></a>
-            <p>Blender</p>
+            <HomeLogos image="..\images\blender.svg"/>  
         </div>
 
-        <div><a><p>See all Projects</p></a></div>
+        <div>
+            <HomeLogos image="..\images\resolve.svg"/>  
+        </div>
+        
+        <div>
+            <HomeLogos image="..\images\affinity photo.svg"/>  
+        </div>
+
+        <div>
+            <HomeLogos image="..\images\fusion.png"/>  
+        </div>
+
+        </div>
+
     </div>
 
     <div>
