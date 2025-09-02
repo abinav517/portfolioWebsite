@@ -1,3 +1,8 @@
+.mainContent {
+  width: 60%;
+  margin: auto;
+}
+
 .projects {
   display: flex;
   flex-direction: row;
@@ -5,34 +10,70 @@
 }
 
 
-
-
 .topContent {
+  margin: 100px auto;
   display: flex;
-  flex-direction: row;
   gap: 2em;
 }
 
 
-.topContent img{
+/* .topContent img{
   height: 300px;
   width: 300px;
 
   object-fit: cover;
   object-position: center;
   border-radius: 50%; 
+} */
+
+.pfpdiv {
+  background: radial-gradient(circle at 30% 107%,
+      rgb(253, 244, 151) 0%,
+      rgb(253, 244, 151) 5%,
+      rgb(253, 89, 73) 45%,
+      rgb(214, 36, 159) 60%,
+      rgb(40, 90, 235) 90%);
+  border-radius: 50%;
+  width: 265px;
+  height: 265px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.pfpdiv img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.HeroSection{
+  display: flex;
+  flex-direction: column;
+}
+
+.HeroHeader{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  height: 110px;
+}
+
+.HeroHeader h1{
+  font-size: 50px;
+}
+
+.HeroHeader h2{
+  font-size: 18px;
+}
+
+.HeroHeader p{
+  font-size: 18px;
+}
 
 .SoftwareLogos {
   display: flex;
   flex-direction: row;
   gap: 2em;
-}
-
-.mainContent {
-
-  margin-top: 1%;
-  margin-left: 10%;
-  margin-right: 10%;
 }

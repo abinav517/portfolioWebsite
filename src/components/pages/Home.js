@@ -7,15 +7,22 @@ export default function Home() {
 <div className='mainContent'>
       <div className='topContent'>
             <div className='pfp'>
-            <img src="..\images\Abinav.jpg"></img>
+            <div className='pfpdiv'><img src="..\images\Abinav.jpg"></img></div>
             </div>
 
-            <div>
-                <div>
+            <div className='HeroSection'>
+                <div className='HeroHeader'>
                 <div><h1>Abinav Srinivas</h1></div>
-                <div><p>Film Editor | 3D Generalist | VFX Artist</p></div>
-                <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
-                </div>
+                <div><h2>Film Editor | 3D Generalist | VFX Artist</h2></div>
+                 </div>
+                <div className='HeroContent'><p>I am a 69 years old self taught professional who nurtured my
+professional skills by learning Graphic Design, Video Editing, VFX and
+3D animation.
+I was passionate about the creative field since my childhood, started
+my YouTube channel at the age of 12 which got me started on this
+journey.
+</p></div>
+               
 
             </div>
     
@@ -31,11 +38,11 @@ export default function Home() {
             */}
             <div className="projects">
                 <div>
-                    <HomeProjects image="/images/PSYCHOCIDE.jpg" title="PSYCHOCIDE"/>
+                    <HomeProjects image="/images/PSYCHOCIDE.jpg" title="PSYCHOCIDE" link="https://www.youtube.com/watch?v=OZISwcwmXwE"/>
                 </div>
                 
                 <div>
-                    <HomeProjects image="/images/choice.jpg" title="Choice"/>
+                    <HomeProjects image="/images/choice.jpg" title="Choice" link="https://www.youtube.com/watch?v=OZISwcwmXwE"/>
                 </div>
             </div>
        <div><a href='/projects'><p>See All Projects</p></a></div>
